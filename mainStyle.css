@@ -11,17 +11,25 @@ body{margin: 0;
 .header{
     height: 160px;
     border-bottom: 3px solid #747474;
-    margin: 20px;
+    margin: 30px 20px 20px 20px;
     display:flex;
-    align-items: center;
+    align-items: start;
+    justify-content: space-between;
 }
 .calendar{
     display: flex;
+    flex-direction: column;
     font-family: K2D;
-    justify-content: center;
     align-items: center;
-
 }
+#day{font-size: 48px;}
+#monthNyear{font-size: 40px;}
+
+
+
+nav{display: none;}
+
+
 .mainStuff{
     gap: 40px;
     display:flex;
