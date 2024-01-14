@@ -1,8 +1,24 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{margin: 0;}
 
 .header{
     height: 160px;
     border-bottom: 3px solid #747474;
     margin: 20px 0px;
+}
+.mainStuff{
+    gap: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainStuff div{
+    display:flex;
+    gap:40px;
 }
 .footer{
     height: 160px;
@@ -14,5 +30,9 @@
     font-size: 24px;
 }
 .footer_bottom{
-
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 20px;
 }
