@@ -15,6 +15,13 @@ body{margin: 0;
     display:flex;
     align-items: center;
 }
+.calendar{
+    display: flex;
+    font-family: K2D;
+    justify-content: center;
+    align-items: center;
+
+}
 .mainStuff{
     gap: 40px;
     display:flex;
