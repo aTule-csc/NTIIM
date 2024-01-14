@@ -27,9 +27,6 @@ body{margin: 0;
 
 
 
-nav{display: none;}
-
-
 .mainStuff{
     gap: 40px;
     display:flex;
