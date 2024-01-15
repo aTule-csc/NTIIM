@@ -23,6 +23,11 @@ body{
 .postHeader p{
     cursor: pointer;
 }
+.mainBlock{
+    display: flex;
+    flex-direction: column;
+    gap:50px
+}
 .textDate{
     font-family: K2D;
     font-size: 32px;
