@@ -1,0 +1,99 @@
+@media screen and (max-width: 1380px) {
+/*0.8*/
+.header{height: 128px;}
+header img{width: 800px;}
+#day{font-size: 38.4px;}
+#monthNyear{font-size: 32px;}
+.menu__btn {    
+    width: 48px;
+    height: 48px;
+}
+.menu__btn > span::before {top: -12.8px;}
+.menu__btn > span::after {top: 12.8px;}
+
+.mainStuff{margin: 80px;}
+.mainStuff img{width: 480px;}
+
+.footer{
+    height: 128px;
+    font-size: 19.2px
+}
+}
+@media screen and (max-width: 1250px) {
+/* 0.7 */
+header img{width: 700px;}
+#day{font-size: 28.8px;}
+#monthNyear{font-size: 24px;}
+.mainStuff{gap: 30px;}
+.mainStuff div{gap:30px;}
+.mainStuff img{width: 420px;}
+}
+@media screen and (max-width: 900px) {
+/* 0.6 */
+.header{height: 96px;}
+header img{width: 600px;}
+
+.mainStuff{margin: 60px;}
+.mainStuff img{width: 360px;}
+
+.footer{
+    height: 96px;
+    font-size: 14.4px
+}
+}
+
+@media screen and (max-width: 750px) {
+/* 0.5 */
+
+.header{
+    height: 80px; 
+    margin: 15px 10px 10px 10px;
+}
+.footer{height: 80px;}
+#day{display: none;}
+#monthNyear{display: none;}
+header img{width: 500px;}
+.menu__btn {    
+    width: 30px;
+    height: 30px;
+}
+.menu__btn > span::before {top: -8px;}
+.menu__btn > span::after {top: 8px;}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {  height: 2px;}
+
+.mainStuff{gap: 20px; margin: 40px;}
+.mainStuff div{
+    gap:20px;    
+    flex-direction: column;
+
+
+}
+.footer{
+    margin: 15px 10px 10px 10px;
+    height: 80px;
+    font-size: 12px
+}
+}
+@media screen and (max-width: 600px) {
+    .header{height: 64px;}
+    header img{width: 400px;}
+    .mainStuff{margin: 10px;}
+
+    .footer{
+        height: 64px;
+        font-size: 9.6px
+    }
+}
+@media screen and (max-width: 450px) {
+    .header,.footer{
+        height: 40px;
+        margin: 5px;
+    }
+    header img{width: 280px;}
+    .menu__btn {
+        top: 0px;
+        right: 0px;
+    }
+}
